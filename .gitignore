@@ -1,0 +1,11 @@
+node_modules
+.env
+dist
+build
+.DS_Store
+coverage
+.vscode
+client/src/assets/product
+client/node_modules
+server/node_modules
+*.log
