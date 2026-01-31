@@ -1,8 +1,9 @@
 {
     "name": "blinkit-clone-root",
     "version": "1.0.0",
+    "type": "module",
     "scripts": {
-        "build": "cd client && npm install && npm run build",
+        "build": "cd client && npm install && npm run build && cd .. && mkdir -p dist && cp -r client/dist/* dist/",
         "postinstall": "cd server && npm install"
     },
     "dependencies": {
